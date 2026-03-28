@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenMillard</title>
+    <style>
+        ul li{
+            float: left;
+        }
+        li a{
+            display:block;
+            padding: 8px 15px;
+            background-color: white;
+            text-decoration: none;
+            color: black;
+        }
+        li a:hover {
+            background-color: grey;
+            color: white;
+        }
+        h1 a{
+            text-decoration: none;
+            color:black;
+        }
+
+        img{
+            display: block;
+        }
+        .top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+        }
+
+        .title{
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buckets{
+            display: flex;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .god{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .skin{
+            width: 80%;
+        }
+
+
+        @media (max-width: 600px){
+            .header{
+                display: flex;
+                justify-content: center;
+                width: 75%;
+            }
+            .title{
+                font-size: 2em;
+                width: 100%;
+            }
+            li{
+                font-size:medium;
+            }
+            .skin{
+                width: 120%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top">
+        <div class="header">
+                <h1 class="title">
+                    <div><a href ="index.html">Ben Millard</a></div>
+                    <img src ="images/STAR11.png" style="width: 3em; display: block;">
+                </h1>
+        </div>
+        <div class="buckets">
+            <h2>
+                <ul style = "list-style-type: none; margin: 0; padding: 0;">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="paintings.html">Paintings</a></li>
+                    <li><a href="illustrations.html">Illustrations</a></li>
+                    <li><a target = "_blank" href = "Millard_Benjamin_Resume (3).pdf">Resume</a></li>
+                </ul>
+            </h2>
+        </div>
+    </div>
+
+    <div class="main">
+        <figure class="god">
+            <img src = "images/IMG_8222.jpg" alt="8222" class="skin">
+            <figcaption><i>Skin </i>(2024)</figcaption>
+        </figure>
+    </div>
+</body>
+</html>

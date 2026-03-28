@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenMillard</title>
+    <style>
+        ul li{
+            float: left;
+        }
+        li a{
+            display:block;
+            padding: 8px 15px;
+            background-color: white;
+            text-decoration: none;
+            color: black;
+        }
+        li a:hover {
+            background-color: grey;
+            color: white;
+        }
+        h1 a{
+            text-decoration: none;
+            color:black;
+        }
+
+        img{
+            display: block;
+            width: 100%;
+        }
+        .top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+        }
+
+        .title{
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buckets{
+            display: flex;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .god{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .jesus{
+            width: 30%;
+        }
+        .gallery{
+            margin-left:15%;
+        }
+
+        @media (max-width: 600px){
+            .header{
+                display: flex;
+                justify-content: center;
+                width: 75%;
+            }
+            .title{
+                font-size: 2em;
+                width: 100%;
+            }
+            li{
+                font-size:medium;
+            }
+
+            .god{
+                flex-direction: column;
+            }
+
+            .jesus{
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top">
+        <div class="header">
+                <h1 class="title">
+                    <div><a href ="index.html">Ben Millard</a></div>
+                    <img src ="images/STAR11.png" style="width: 3em; display: block;">
+                </h1>
+        </div>
+        <div class="buckets">
+            <h2>
+                <ul style = "list-style-type: none; margin: 0; padding: 0;">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="paintings.html">Paintings</a></li>
+                    <li><a href="illustrations.html">Illustrations</a></li>
+                    <li><a target = "_blank" href = "Millard_Benjamin_Resume (3).pdf">Resume</a></li>
+                </ul>
+            </h2>
+        </div>
+    </div>
+
+    <h2 class="gallery">Charcoal</h2>
+
+    <div class="main">
+        <div class="god">
+                <figure class="jesus">
+                    <img src = "images/skeleton.jpg" alt = "skeleton">
+                    <figcaption><i>Skeleton Study</i> (2026)<br>18" x 24"<br>Charcoal on bristol</figcaption>
+                </figure>
+                <figure class="jesus">
+                    <img src = "images/IMG_0542.jpg" alt = "cloth">
+                    <figcaption><i>Cloth Study</i> (2024)<br>32" x 24"<br>Charcoal on stonehenge</figcaption>
+                </figure>
+        </div>
+    </div>
+    <div class = "main">
+        <div class="god">
+                <figure class="jesus">
+                    <img src = "images/john1.jpg" alt = "john1">
+                    <figcaption><i>Model Study (John)</i> (2026)<br>18" x 24"<br>Charcoal on stonehenge</figcaption>
+                </figure>
+                <figure class="jesus">
+                    <img src = "images/Becca(0).JPG" alt = "Becca">
+                    <figcaption><i>Model Study (Becca 2)</i> (2026)<br>18" x 24"<br>Charcoal on sketchpaper</figcaption>
+                </figure>
+        </div>
+    </div>
+
+<h2 class="gallery">Graphite</h2>
+
+    <div class="main">
+        <div class="god">
+                <figure class="jesus">
+                    <img src = "images/IMG_0253.JPG" alt = "self">
+                    <figcaption><i>Self Portrait</i> (2024)<br>18" x 24"<br>Graphite on bristol</figcaption>
+                </figure>
+                <figure class="jesus">
+                    <img src = "images/lady.jpg" alt = "lady">
+                    <figcaption><i>Model Study (Becca 1)</i> (2026)<br>18" x 24"<br>Graphite on sketchpaper</figcaption>
+                </figure>
+        </div>
+    </div>
